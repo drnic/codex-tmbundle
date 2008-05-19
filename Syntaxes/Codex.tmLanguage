@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>slides</string>
+	</array>
+	<key>firstLineMatch</key>
+	<string>textile</string>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
+	<key>name</key>
+	<string>Codex</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>text.html.textile</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html.textile.codex.slides</string>
+	<key>uuid</key>
+	<string>9AFDCAC5-EF44-4839-93F2-51BD7305A772</string>
+</dict>
+</plist>
