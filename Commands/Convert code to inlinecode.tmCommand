@@ -17,6 +17,8 @@
 	<string>Convert code to inlinecode</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>text.html.textile.codex.slides</string>
 	<key>uuid</key>
 	<string>7C434B0D-364F-451C-B952-59D3EBE23A95</string>
 </dict>

@@ -23,4 +23,14 @@ end
     EOS
     assert_equal(expected, ConvertToInlinecode.run(":code code/dog.rb"))
   end
+
+  def test_file_insert_with_attributes
+    expected = <<-EOS
+:inlinecode
+class Dog
+end
+:endinlinecode
+    EOS
+    assert_equal(expected, ConvertToInlinecode.run(":code code/dog.rb[class=code-normal]"))
+  end
 end

@@ -1,7 +1,7 @@
 module ConvertToInlinecode
   extend self
   def run(current_line)
-    return "" unless file_name = current_line.match(%r{\s*:code\s+(.*)})
+    return "" unless file_name = current_line.match(%r{\s*:code\s+([^\[]*)})
     file_name = File.join root_path, file_name[1]
     ":inlinecode\n" +
       (File.read(file_name) rescue "") +
