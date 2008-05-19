@@ -16,7 +16,7 @@ Source can be viewed or forked via GitHub: [http://github.com/drnic/codex-tmbund
 Usage
 =====
 
-* ⌅ ⌥ ⌘ + I - Convert ":code code/foo.rb" into an inline code block
+* ⌅ ⌥ ⌘ + i - Convert ":code code/foo.rb" into an inline code block
 
 Keys
 ====
