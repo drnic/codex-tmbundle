@@ -13,6 +13,20 @@ To install via Git:
 
 Source can be viewed or forked via GitHub: [http://github.com/drnic/codex-tmbundle/tree/master](http://github.com/drnic/codex-tmbundle/tree/master)
 
+Usage
+=====
+
+* ⌅ ⌥ ⌘ + I - Convert ":code code/foo.rb" into an inline code block
+
+Keys
+====
+
+*	⌃ - shift
+*	⌅ - control
+*	⌥ - alt
+*	⌘ - command
+*	⎋ - escape
+
 Codex
 =====
 
