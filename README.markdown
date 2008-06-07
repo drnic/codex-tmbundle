@@ -17,6 +17,9 @@ Usage
 =====
 
 * ⌅ ⌥ ⌘ + i - Convert ":code code/foo.rb" into an inline code block
+*  ⌘R		- Generate and view slides
+*  ⌘B		- Generate html
+*  ⌥ ⌘R		- Generate and view in TextMate
 
 Keys
 ====
