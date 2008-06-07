@@ -9,7 +9,7 @@ Installation
 To install via Git:
 
 		cd ~/"Library/Application Support/TextMate/Bundles/"
-		git clone git://github.com/drnic/codex-tmbundle.git "Hobo.tmbundle"
+		git clone git://github.com/drnic/codex-tmbundle.git "Codex.tmbundle"
 
 Source can be viewed or forked via GitHub: [http://github.com/drnic/codex-tmbundle/tree/master](http://github.com/drnic/codex-tmbundle/tree/master)
 
