@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo "&lt;html&gt;&lt;head&gt;&lt;title&gt;Bulding all slides&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;pre&gt;"
+cd "$TM_DIRECTORY/.."
+rake all
+echo "&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@b</string>
+	<key>name</key>
+	<string>Generate all</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>text.html.textile.codex.slides</string>
+	<key>uuid</key>
+	<string>92102929-A471-41EB-9EF5-7CDE9204EC73</string>
+</dict>
+</plist>

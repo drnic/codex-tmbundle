@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>cd "$TM_DIRECTORY/.." &amp;&gt; /dev/null
+rake all &amp;&gt; /dev/null
+HTML_FILE=`basename "$TM_FILEPATH" | sed s/slides/html/`
+cat "$TM_DIRECTORY/../html/$HTML_FILE"</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@r</string>
+	<key>name</key>
+	<string>Generate and view in TextMate</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.html.textile.codex.slides</string>
+	<key>uuid</key>
+	<string>F24E1D00-8974-4B15-BBB2-86BA9F3FD2FA</string>
+</dict>
+</plist>
