@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>echo "&lt;html&gt;&lt;head&gt;&lt;title&gt;Rake output:&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;pre&gt;"
+echo "Output:"
+cd "$TM_DIRECTORY/.."
+rake all
+HTML_FILE=`basename "$TM_FILEPATH" | sed s/slides/html/`
+open "$TM_DIRECTORY/../html/$HTML_FILE"
+echo "&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>generate and view</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.html.textile.codex.slides</string>
+	<key>uuid</key>
+	<string>655CEFA5-B096-4D17-AE63-0D75D305D7AA</string>
+</dict>
+</plist>
