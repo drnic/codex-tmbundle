@@ -4,6 +4,14 @@
 <dict>
 	<key>name</key>
 	<string>Codex</string>
+	<key>ordering</key>
+	<array>
+		<string>9AFDCAC5-EF44-4839-93F2-51BD7305A772</string>
+		<string>7C434B0D-364F-451C-B952-59D3EBE23A95</string>
+		<string>655CEFA5-B096-4D17-AE63-0D75D305D7AA</string>
+		<string>F24E1D00-8974-4B15-BBB2-86BA9F3FD2FA</string>
+		<string>92102929-A471-41EB-9EF5-7CDE9204EC73</string>
+	</array>
 	<key>uuid</key>
 	<string>BE44CD3B-0271-4F04-AD64-8674ADB933FF</string>
 </dict>

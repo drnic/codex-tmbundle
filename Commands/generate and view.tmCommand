@@ -5,22 +5,18 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>echo "&lt;html&gt;&lt;head&gt;&lt;title&gt;Rake output:&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;pre&gt;"
-echo "Output:"
-cd "$TM_DIRECTORY/.."
+	<string>cd "$TM_DIRECTORY/.."
 rake all
 HTML_FILE=`basename "$TM_FILEPATH" | sed s/slides/html/`
-open "$TM_DIRECTORY/../html/$HTML_FILE"
-echo "&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;"
-</string>
+open "$TM_DIRECTORY/../html/$HTML_FILE"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>@r</string>
 	<key>name</key>
-	<string>generate and view</string>
+	<string>Generate and view</string>
 	<key>output</key>
-	<string>showAsHTML</string>
+	<string>discard</string>
 	<key>scope</key>
 	<string>text.html.textile.codex.slides</string>
 	<key>uuid</key>
