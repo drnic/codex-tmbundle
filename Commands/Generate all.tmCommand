@@ -10,13 +10,13 @@ cd "$TM_DIRECTORY/.."
 rake all
 echo "&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;"</string>
 	<key>input</key>
-	<string>selection</string>
+	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>@b</string>
 	<key>name</key>
 	<string>Generate all</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>text.html.textile.codex.slides</string>
 	<key>uuid</key>

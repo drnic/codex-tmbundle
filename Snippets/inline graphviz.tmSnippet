@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:inlinegraphviz [engine=${2:dot|neato}]
+	${3:your code here..}
+:endinlinecode</string>
+	<key>name</key>
+	<string>inline graphviz</string>
+	<key>scope</key>
+	<string>text.html.textile.codex.slides</string>
+	<key>tabTrigger</key>
+	<string>:igv</string>
+	<key>uuid</key>
+	<string>4C88434B-8F18-4897-9328-7DC0F9CF627C</string>
+</dict>
+</plist>

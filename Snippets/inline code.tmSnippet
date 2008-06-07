@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:inlinecode [class=${2:code-small|code-large}]
+	${3:your code here..}
+:endinlinecode</string>
+	<key>name</key>
+	<string>inline code</string>
+	<key>scope</key>
+	<string>text.html.textile.codex.slides</string>
+	<key>tabTrigger</key>
+	<string>:icode</string>
+	<key>uuid</key>
+	<string>A4A51D04-F329-4F07-9BBC-20B062F19433</string>
+</dict>
+</plist>

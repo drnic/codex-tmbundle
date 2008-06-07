@@ -8,12 +8,117 @@
 	</array>
 	<key>firstLineMatch</key>
 	<string>textile</string>
+	<key>foldingStartMarker</key>
+	<string>^:inline.*</string>
+	<key>foldingStopMarker</key>
+	<string>^:end(.*)?$</string>
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
 	<string>Codex</string>
 	<key>patterns</key>
 	<array>
+		<dict>
+			<key>begin</key>
+			<string>^(:inlinecode)(\s?[\s?lang=ruby\s?])</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.inlinestart.codex.slides</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.inlineparam.codex.slides</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.inlinestop.codex.slides</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>^(:endcode|endinlinecode|end)</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.ruby</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^(:inlinegraphviz)(.*)?</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.inlinestart.codex.slides</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.inlineparam.codex.slides</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.inlinestop.codex.slides</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>^(:end|:endgraphviz|:endinlinegraphviz)</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.dot</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^(:inline.*)\s.*</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.inlinestart.codex.slides</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.inlinestop.codex.slides</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>^(:end|:end.*)</string>
+			<key>name</key>
+			<string>markup.raw.codex.slides</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^:code</string>
+			<key>name</key>
+			<string>keyword.code.codex.slides</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^:graphviz</string>
+			<key>name</key>
+			<string>keyword.graphviz.codex.slides</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^:webtex</string>
+			<key>name</key>
+			<string>keyword.webtex.codex.slides</string>
+		</dict>
 		<dict>
 			<key>include</key>
 			<string>text.html.textile</string>
